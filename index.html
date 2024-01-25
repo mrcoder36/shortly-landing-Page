@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shortly</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/scripts.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="assets/img/" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <div class="content-header">
+
+      <a href="index.html"><img src="assets/img/logo.svg" alt="Logo"></a>
+
+      <nav class="nav" id="nav">
+        <nav class="nav-menu">
+          <li class="item-nav-menu"><a href="#">Features</a></li>
+          <li class="item-nav-menu"><a href="#">Pricing</a></li>
+          <li class="item-nav-menu"><a href="#">Resources</a></li>
+        </nav>
+  
+        <nav class="nav-user" id="navUser">
+          <li class="item-nav-menu"><a href="#">Login</a></li>
+          <button class="btn-sign-up">
+            <a href="#">Sign Up</a>
+          </button>
+        </nav>
+      </nav>
+      <div class="nav-btn user-nav-btn">
+        <button class="btn-menu" onclick="showNavUser()">
+          <img src="assets/img/menu.png" alt="Menu Icon">
+        </button>
+      </div>
+      <div class="nav-btn nav-header-btn">
+        <button class="btn-menu" onclick="showMenu()">
+          <img src="assets/img/menu.png" alt="Menu Icon">
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="cont-content">
+   
+    <div class="content-page">
+      
+      <section class="sect-brands">
+        <div class="cont-brands-content">
+          <div class="content-brands">
+            <h1>More than just shorter links</h1>
+            <p>Build your brand’s recognition and get detailed insights 
+            on how your links are performing.</p>
+            
+            
+            <button class="btn-brands">
+              Get Started
+            </button>
+          </div>
+        </div>
+        <div class="cont-brands-image">
+          <img src="assets/img/illustration-working.svg" alt="Ilustration Working">
+        </div>
+      </section>
+    </div>
+  </main>
+
+  
+  <section class="sect-link">
+   
+    <div class="cont-enter-link">
+      
+      <div class="content-enter-link">
+        <input type="text" name="link" id="link" class="input-link" placeholder="Shorten a link here...">
+        <button class="btn-link">
+          Shorten It!
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Statistics Section -->
+  <section class="sect-statistics">
+    <!-- Content -->
+    <div class="content-statistics">
+      <!-- Title -->
+      <div class="title-statistics">
+        Advanced Statistics
+        <p>Track how your links are performing across the web with our 
+          advanced statistics dashboard.</p>
+      </div>
+  
+      <!-- Cards Container -->
+      <div class="cont-cards-statistics">
+        <!-- Card -->
+        <div class="card-statistic card-start">
+          <div class="cont-img-card-statistic">
+            <img src="assets/img/icon-brand-recognition.svg" alt="">
+          </div>
+          <div class="content-card-statistic">
+            <h2>Brand Recognition</h2>
+            <p>Boost your brand recognition with each click. Generic links don’t 
+              mean a thing. Branded links help instil confidence in your content.
+            </p>
+          </div>
+        </div>
+
+        <div class="line"></div>
+
+        <!-- Card 2 -->
+        <div class="card-statistic card-center">
+          <div class="cont-img-card-statistic">
+            <img src="assets/img/icon-detailed-records.svg" alt="">
+          </div>
+          <div class="content-card-statistic">
+            <h2>Detailed Records</h2>
+            <p>Gain insights into who is clicking your links. Knowing when and where 
+              people engage with your content helps inform better decisions.
+            </p>
+          </div>
+        </div>
+
+        <div class="line"></div>
+
+        <!-- Card 3 -->
+        <div class="card-statistic card-end">
+          <div class="cont-img-card-statistic">
+            <img src="assets/img/icon-fully-customizable.svg" alt="">
+          </div>
+          <div class="content-card-statistic">
+            <h2>Fully Customizable</h2>
+            <p>Improve brand awareness and content discoverability through customizable 
+              links, supercharging audience engagement.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Boost section -->
+  <section class="sect-boost">
+    <h2>Boost your links today</h2>
+    <button>Get Started</button>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="content-footer">
+      <div class="cont-left-footer">
+        <div class="cont-logo-footer">
+          <img src="assets/img/logo-footer.svg" alt="">
+        </div>
+        <div class="cont-lists-footer">
+          <div class="list-footer">
+            <li class="first-item-list-footer"><b>Features</b></li>
+            <li><a href="#" class="item-list-footer">Link Shortening</a></li>
+            <li><a href="#" class="item-list-footer">Branded Links</a></li>
+            <li><a href="#" class="item-list-footer">Analytics</a></li>
+          </div>
+          <div class="list-footer">
+            <li class="first-item-list-footer"><b>Resources</b></li>
+            <li><a href="#" class="item-list-footer">Blog</a></li>
+            <li><a href="#" class="item-list-footer">Developers</a></li>
+            <li><a href="#" class="item-list-footer">Support</a></li>
+          </div>
+          <div class="list-footer">
+            <li class="first-item-list-footer"><b>Company</b></li>
+            <li><a href="#" class="item-list-footer">About</a></li>
+            <li><a href="#" class="item-list-footer">Our Team</a></li>
+            <li><a href="#" class="item-list-footer">Careers</a></li>
+            <li><a href="#" class="item-list-footer">Contact</a></li>
+          </div>
+        </div>
+      </div>
+      <div class="cont-icons-footer">
+        <button class="btn-icon-footer">
+          <img src="assets/img/icon-facebook.svg" alt="">
+        </button>
+        <button class="btn-icon-footer">
+          <img src="assets/img/icon-twitter.svg" alt="">
+        </button>
+        <button class="btn-icon-footer">
+          <img src="assets/img/icon-pinterest.svg" alt="">
+        </button>
+        <button class="btn-icon-footer">
+          <img src="assets/img/icon-instagram.svg" alt="">
+        </button>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
